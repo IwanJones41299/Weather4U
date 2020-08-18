@@ -1,0 +1,129 @@
+html, body
+{
+    background-image: linear-gradient(to right top, #ffa812, #ec6454, #a6446e, #50375d, #181e2a);
+    margin: 0;
+    padding: 0;
+}
+
+#App_Wrapper
+{
+    margin-top: 2.5%;
+    margin-bottom: 3%;
+}
+
+/*Titles.js file styling*/
+.app_title
+{
+    font-size: 3em;
+    color: #181E2A;
+}
+
+.app_subtitle
+{
+    font-size: 1.5em;
+    text-align: center;
+    color: #181E2A;
+    font-style: italic;
+}
+
+.title-container
+{
+    height: 90vh;
+    background: url(./img/WeatherApp.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: 000;
+}
+
+.form-container
+{
+    background-color: #181E2A;
+    height: 90vh;
+    padding-top: 100px;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: 000;
+}
+
+.main
+{
+    height: 90vh;
+    background: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-control
+{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    margin-left: 2%;
+    background-color: transparent;
+}
+
+.form-control:focus, .form-control:active {
+    background: transparent;
+}
+
+.active-purple input.form-control[type=text]:focus:not([readonly]) 
+{
+    border-bottom: 1px solid #ffa812;
+    box-shadow: 0 1px 0 0 #ffa812;
+    background-color: transparent;
+}
+
+.active-purple input.form-control[type=text] 
+{
+    border-bottom: 2px solid #ffa812;
+    box-shadow: 0 1px 0 0 #ffa812;
+    background-color: transparent;
+}
+
+.btn-search
+{
+    margin-left: 2%;
+    border: 2px solid #ffa812;
+    transition: 1s;
+    color: white;
+    background-color: #ffa812;
+}
+
+.btn-search:hover
+{
+    transition: 1s;
+    border: 2px solid white;
+    color: #181E2A;
+}
+
+.btn-search:active
+{
+    transition: 1s;
+    border: 2px solid white;
+    color: #181E2A;
+}
+
+.weather__key
+{
+    color: #ffa812;
+    text-align: left !important;
+}
+
+
+.weather__info
+{
+    margin-top: 2%;
+    margin-left: 47.6%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.weather__value
+{
+    color: white;
+}
